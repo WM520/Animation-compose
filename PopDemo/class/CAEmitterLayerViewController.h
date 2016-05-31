@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  CAEmitterLayerViewController.h
 //  PopDemo
 //
 //  Created by David on 16/5/31.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface CAEmitterLayerViewController : UIViewController
 
 @end
-

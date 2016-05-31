@@ -8,13 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		931528851CFD168A00D27FD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 931528841CFD168A00D27FD0 /* main.m */; };
-		931528881CFD168A00D27FD0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 931528871CFD168A00D27FD0 /* AppDelegate.m */; };
-		9315288B1CFD168A00D27FD0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9315288A1CFD168A00D27FD0 /* ViewController.m */; };
 		9315288E1CFD168A00D27FD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9315288C1CFD168A00D27FD0 /* Main.storyboard */; };
 		931528901CFD168A00D27FD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9315288F1CFD168A00D27FD0 /* Assets.xcassets */; };
 		931528931CFD168A00D27FD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 931528911CFD168A00D27FD0 /* LaunchScreen.storyboard */; };
 		9315289E1CFD168A00D27FD0 /* PopDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9315289D1CFD168A00D27FD0 /* PopDemoTests.m */; };
 		931528A91CFD168A00D27FD0 /* PopDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 931528A81CFD168A00D27FD0 /* PopDemoUITests.m */; };
+		931529081CFD1D0C00D27FD0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 931529051CFD1D0C00D27FD0 /* AppDelegate.m */; };
+		931529091CFD1D0C00D27FD0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 931529071CFD1D0C00D27FD0 /* ViewController.m */; };
+		9315290D1CFD1FFC00D27FD0 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9315290C1CFD1FFC00D27FD0 /* BaseViewController.m */; };
+		931529101CFD202E00D27FD0 /* Transform3DViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9315290F1CFD202E00D27FD0 /* Transform3DViewController.m */; };
+		931529141CFD67AA00D27FD0 /* LineationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 931529131CFD67AA00D27FD0 /* LineationViewController.m */; };
+		931529171CFD683300D27FD0 /* WMLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 931529161CFD683300D27FD0 /* WMLayer.m */; };
+		937289B01CFD837900E3E973 /* fire.png in Resources */ = {isa = PBXBuildFile; fileRef = 937289AF1CFD837900E3E973 /* fire.png */; };
+		93728A061CFD998300E3E973 /* CAEmitterLayerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 937289FF1CFD998300E3E973 /* CAEmitterLayerView.m */; };
+		93728A071CFD998300E3E973 /* Rain.m in Sources */ = {isa = PBXBuildFile; fileRef = 93728A011CFD998300E3E973 /* Rain.m */; };
+		93728A081CFD998300E3E973 /* rain@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93728A021CFD998300E3E973 /* rain@2x.png */; };
+		93728A091CFD998300E3E973 /* Snow.m in Sources */ = {isa = PBXBuildFile; fileRef = 93728A041CFD998300E3E973 /* Snow.m */; };
+		93728A0A1CFD998300E3E973 /* snow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93728A051CFD998300E3E973 /* snow@2x.png */; };
+		93728A0D1CFD999D00E3E973 /* CAEmitterLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93728A0C1CFD999D00E3E973 /* CAEmitterLayerViewController.m */; };
+		93728A0F1CFD9A5A00E3E973 /* alpha@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93728A0E1CFD9A5A00E3E973 /* alpha@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +49,6 @@
 /* Begin PBXFileReference section */
 		931528801CFD168A00D27FD0 /* PopDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		931528841CFD168A00D27FD0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		931528861CFD168A00D27FD0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		931528871CFD168A00D27FD0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		931528891CFD168A00D27FD0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		9315288A1CFD168A00D27FD0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9315288D1CFD168A00D27FD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9315288F1CFD168A00D27FD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		931528921CFD168A00D27FD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +59,30 @@
 		931528A41CFD168A00D27FD0 /* PopDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		931528A81CFD168A00D27FD0 /* PopDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopDemoUITests.m; sourceTree = "<group>"; };
 		931528AA1CFD168A00D27FD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		931529041CFD1D0C00D27FD0 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		931529051CFD1D0C00D27FD0 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		931529061CFD1D0C00D27FD0 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		931529071CFD1D0C00D27FD0 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9315290B1CFD1FFC00D27FD0 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BaseViewController.h; path = ../BaseViewController.h; sourceTree = "<group>"; };
+		9315290C1CFD1FFC00D27FD0 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BaseViewController.m; path = ../BaseViewController.m; sourceTree = "<group>"; };
+		9315290E1CFD202E00D27FD0 /* Transform3DViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transform3DViewController.h; sourceTree = "<group>"; };
+		9315290F1CFD202E00D27FD0 /* Transform3DViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transform3DViewController.m; sourceTree = "<group>"; };
+		931529121CFD67AA00D27FD0 /* LineationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LineationViewController.h; sourceTree = "<group>"; };
+		931529131CFD67AA00D27FD0 /* LineationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineationViewController.m; sourceTree = "<group>"; };
+		931529151CFD683300D27FD0 /* WMLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMLayer.h; sourceTree = "<group>"; };
+		931529161CFD683300D27FD0 /* WMLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMLayer.m; sourceTree = "<group>"; };
+		937289AF1CFD837900E3E973 /* fire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fire.png; sourceTree = "<group>"; };
+		937289FE1CFD998300E3E973 /* CAEmitterLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAEmitterLayerView.h; sourceTree = "<group>"; };
+		937289FF1CFD998300E3E973 /* CAEmitterLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAEmitterLayerView.m; sourceTree = "<group>"; };
+		93728A001CFD998300E3E973 /* Rain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rain.h; sourceTree = "<group>"; };
+		93728A011CFD998300E3E973 /* Rain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Rain.m; sourceTree = "<group>"; };
+		93728A021CFD998300E3E973 /* rain@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "rain@2x.png"; sourceTree = "<group>"; };
+		93728A031CFD998300E3E973 /* Snow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Snow.h; sourceTree = "<group>"; };
+		93728A041CFD998300E3E973 /* Snow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Snow.m; sourceTree = "<group>"; };
+		93728A051CFD998300E3E973 /* snow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "snow@2x.png"; sourceTree = "<group>"; };
+		93728A0B1CFD999D00E3E973 /* CAEmitterLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAEmitterLayerViewController.h; sourceTree = "<group>"; };
+		93728A0C1CFD999D00E3E973 /* CAEmitterLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAEmitterLayerViewController.m; sourceTree = "<group>"; };
+		93728A0E1CFD9A5A00E3E973 /* alpha@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alpha@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,12 +133,10 @@
 		931528821CFD168A00D27FD0 /* PopDemo */ = {
 			isa = PBXGroup;
 			children = (
-				931528861CFD168A00D27FD0 /* AppDelegate.h */,
-				931528871CFD168A00D27FD0 /* AppDelegate.m */,
-				931528891CFD168A00D27FD0 /* ViewController.h */,
-				9315288A1CFD168A00D27FD0 /* ViewController.m */,
+				931529021CFD1D0C00D27FD0 /* class */,
 				9315288C1CFD168A00D27FD0 /* Main.storyboard */,
 				9315288F1CFD168A00D27FD0 /* Assets.xcassets */,
+				937289AF1CFD837900E3E973 /* fire.png */,
 				931528911CFD168A00D27FD0 /* LaunchScreen.storyboard */,
 				931528941CFD168A00D27FD0 /* Info.plist */,
 				931528831CFD168A00D27FD0 /* Supporting Files */,
@@ -138,6 +168,68 @@
 				931528AA1CFD168A00D27FD0 /* Info.plist */,
 			);
 			path = PopDemoUITests;
+			sourceTree = "<group>";
+		};
+		931529021CFD1D0C00D27FD0 /* class */ = {
+			isa = PBXGroup;
+			children = (
+				937289FD1CFD996100E3E973 /* CAEmitterLayer */,
+				931529111CFD677000D27FD0 /* 划线 */,
+				9315290A1CFD1D1A00D27FD0 /* 旋转 */,
+				931529031CFD1D0C00D27FD0 /* other */,
+			);
+			path = class;
+			sourceTree = "<group>";
+		};
+		931529031CFD1D0C00D27FD0 /* other */ = {
+			isa = PBXGroup;
+			children = (
+				931529041CFD1D0C00D27FD0 /* AppDelegate.h */,
+				931529051CFD1D0C00D27FD0 /* AppDelegate.m */,
+				931529061CFD1D0C00D27FD0 /* ViewController.h */,
+				931529071CFD1D0C00D27FD0 /* ViewController.m */,
+				9315290B1CFD1FFC00D27FD0 /* BaseViewController.h */,
+				9315290C1CFD1FFC00D27FD0 /* BaseViewController.m */,
+			);
+			path = other;
+			sourceTree = "<group>";
+		};
+		9315290A1CFD1D1A00D27FD0 /* 旋转 */ = {
+			isa = PBXGroup;
+			children = (
+				9315290E1CFD202E00D27FD0 /* Transform3DViewController.h */,
+				9315290F1CFD202E00D27FD0 /* Transform3DViewController.m */,
+			);
+			name = "旋转";
+			sourceTree = "<group>";
+		};
+		931529111CFD677000D27FD0 /* 划线 */ = {
+			isa = PBXGroup;
+			children = (
+				931529121CFD67AA00D27FD0 /* LineationViewController.h */,
+				931529131CFD67AA00D27FD0 /* LineationViewController.m */,
+				931529151CFD683300D27FD0 /* WMLayer.h */,
+				931529161CFD683300D27FD0 /* WMLayer.m */,
+			);
+			name = "划线";
+			sourceTree = "<group>";
+		};
+		937289FD1CFD996100E3E973 /* CAEmitterLayer */ = {
+			isa = PBXGroup;
+			children = (
+				93728A0B1CFD999D00E3E973 /* CAEmitterLayerViewController.h */,
+				93728A0C1CFD999D00E3E973 /* CAEmitterLayerViewController.m */,
+				937289FE1CFD998300E3E973 /* CAEmitterLayerView.h */,
+				937289FF1CFD998300E3E973 /* CAEmitterLayerView.m */,
+				93728A001CFD998300E3E973 /* Rain.h */,
+				93728A011CFD998300E3E973 /* Rain.m */,
+				93728A021CFD998300E3E973 /* rain@2x.png */,
+				93728A031CFD998300E3E973 /* Snow.h */,
+				93728A041CFD998300E3E973 /* Snow.m */,
+				93728A051CFD998300E3E973 /* snow@2x.png */,
+				93728A0E1CFD9A5A00E3E973 /* alpha@2x.png */,
+			);
+			name = CAEmitterLayer;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,7 +335,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93728A081CFD998300E3E973 /* rain@2x.png in Resources */,
+				93728A0F1CFD9A5A00E3E973 /* alpha@2x.png in Resources */,
 				931528931CFD168A00D27FD0 /* LaunchScreen.storyboard in Resources */,
+				937289B01CFD837900E3E973 /* fire.png in Resources */,
+				93728A0A1CFD998300E3E973 /* snow@2x.png in Resources */,
 				931528901CFD168A00D27FD0 /* Assets.xcassets in Resources */,
 				9315288E1CFD168A00D27FD0 /* Main.storyboard in Resources */,
 			);
@@ -270,9 +366,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9315288B1CFD168A00D27FD0 /* ViewController.m in Sources */,
-				931528881CFD168A00D27FD0 /* AppDelegate.m in Sources */,
+				93728A091CFD998300E3E973 /* Snow.m in Sources */,
 				931528851CFD168A00D27FD0 /* main.m in Sources */,
+				9315290D1CFD1FFC00D27FD0 /* BaseViewController.m in Sources */,
+				931529141CFD67AA00D27FD0 /* LineationViewController.m in Sources */,
+				931529101CFD202E00D27FD0 /* Transform3DViewController.m in Sources */,
+				931529171CFD683300D27FD0 /* WMLayer.m in Sources */,
+				93728A0D1CFD999D00E3E973 /* CAEmitterLayerViewController.m in Sources */,
+				93728A061CFD998300E3E973 /* CAEmitterLayerView.m in Sources */,
+				931529091CFD1D0C00D27FD0 /* ViewController.m in Sources */,
+				93728A071CFD998300E3E973 /* Rain.m in Sources */,
+				931529081CFD1D0C00D27FD0 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +602,7 @@
 				931528AF1CFD168A00D27FD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		931528B01CFD168A00D27FD0 /* Build configuration list for PBXNativeTarget "PopDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +611,7 @@
 				931528B21CFD168A00D27FD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		931528B31CFD168A00D27FD0 /* Build configuration list for PBXNativeTarget "PopDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +620,7 @@
 				931528B51CFD168A00D27FD0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
