@@ -27,6 +27,7 @@
 		93728A0A1CFD998300E3E973 /* snow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93728A051CFD998300E3E973 /* snow@2x.png */; };
 		93728A0D1CFD999D00E3E973 /* CAEmitterLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93728A0C1CFD999D00E3E973 /* CAEmitterLayerViewController.m */; };
 		93728A0F1CFD9A5A00E3E973 /* alpha@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 93728A0E1CFD9A5A00E3E973 /* alpha@2x.png */; };
+		93BA5BB81CFEBADA00BF06DC /* ball.png in Resources */ = {isa = PBXBuildFile; fileRef = 93BA5BB71CFEBADA00BF06DC /* ball.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,7 +72,7 @@
 		931529131CFD67AA00D27FD0 /* LineationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LineationViewController.m; sourceTree = "<group>"; };
 		931529151CFD683300D27FD0 /* WMLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMLayer.h; sourceTree = "<group>"; };
 		931529161CFD683300D27FD0 /* WMLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMLayer.m; sourceTree = "<group>"; };
-		937289AF1CFD837900E3E973 /* fire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fire.png; sourceTree = "<group>"; };
+		937289AF1CFD837900E3E973 /* fire.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fire.png; path = ../fire.png; sourceTree = "<group>"; };
 		937289FE1CFD998300E3E973 /* CAEmitterLayerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAEmitterLayerView.h; sourceTree = "<group>"; };
 		937289FF1CFD998300E3E973 /* CAEmitterLayerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAEmitterLayerView.m; sourceTree = "<group>"; };
 		93728A001CFD998300E3E973 /* Rain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Rain.h; sourceTree = "<group>"; };
@@ -83,6 +84,7 @@
 		93728A0B1CFD999D00E3E973 /* CAEmitterLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAEmitterLayerViewController.h; sourceTree = "<group>"; };
 		93728A0C1CFD999D00E3E973 /* CAEmitterLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAEmitterLayerViewController.m; sourceTree = "<group>"; };
 		93728A0E1CFD9A5A00E3E973 /* alpha@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "alpha@2x.png"; sourceTree = "<group>"; };
+		93BA5BB71CFEBADA00BF06DC /* ball.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ball.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,7 +138,6 @@
 				931529021CFD1D0C00D27FD0 /* class */,
 				9315288C1CFD168A00D27FD0 /* Main.storyboard */,
 				9315288F1CFD168A00D27FD0 /* Assets.xcassets */,
-				937289AF1CFD837900E3E973 /* fire.png */,
 				931528911CFD168A00D27FD0 /* LaunchScreen.storyboard */,
 				931528941CFD168A00D27FD0 /* Info.plist */,
 				931528831CFD168A00D27FD0 /* Supporting Files */,
@@ -208,6 +209,8 @@
 			children = (
 				931529121CFD67AA00D27FD0 /* LineationViewController.h */,
 				931529131CFD67AA00D27FD0 /* LineationViewController.m */,
+				937289AF1CFD837900E3E973 /* fire.png */,
+				93BA5BB71CFEBADA00BF06DC /* ball.png */,
 				931529151CFD683300D27FD0 /* WMLayer.h */,
 				931529161CFD683300D27FD0 /* WMLayer.m */,
 			);
@@ -341,6 +344,7 @@
 				937289B01CFD837900E3E973 /* fire.png in Resources */,
 				93728A0A1CFD998300E3E973 /* snow@2x.png in Resources */,
 				931528901CFD168A00D27FD0 /* Assets.xcassets in Resources */,
+				93BA5BB81CFEBADA00BF06DC /* ball.png in Resources */,
 				9315288E1CFD168A00D27FD0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
