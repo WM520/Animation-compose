@@ -18,8 +18,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor = [UIColor blackColor];
-//    [self snow];
-    [self SetupEmitter];
+    self.title = @"点击页面有惊喜";
+    [self snow];
+//    [self SetupEmitter];
 }
 /**
  *  下雪效果
@@ -42,14 +43,14 @@
     CAEmitterCell *snowflake = [CAEmitterCell emitterCell];
     
     //    随机颗粒的大小
-    snowflake.scale = 0.01;
+    snowflake.scale = 0.2;
     snowflake.scaleRange = 0.5;
     
     //    缩放比列速度
-//    snowflake.scaleSpeed = 0.005;
+    snowflake.scaleSpeed = 0.005;
     
     //    粒子参数的速度乘数因子；
-    snowflake.birthRate		= 30.0;
+    snowflake.birthRate		= 20.0;
     
     //生命周期
     snowflake.lifetime		= 60.0;
@@ -65,7 +66,7 @@
     //    自动旋转
     snowflake.spinRange		= 0.25 * M_PI;		// slow spin
     
-    snowflake.contents		= (id) [[UIImage imageNamed:@"fire"] CGImage];
+    snowflake.contents		= (id) [[UIImage imageNamed:@"snow1"] CGImage];
     snowflake.color			= [[UIColor colorWithRed:0.600 green:0.658 blue:0.743 alpha:1.000] CGColor];
     
     // Make the flakes seem inset in the background

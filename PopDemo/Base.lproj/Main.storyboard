@@ -49,6 +49,7 @@
                         <segue destination="7qN-aT-gSE" kind="push" identifier="Transform3D" id="WJj-vr-43Z"/>
                         <segue destination="jE6-WD-9Tc" kind="push" identifier="lineation" id="RJp-tm-L8c"/>
                         <segue destination="rSU-m8-O2U" kind="push" identifier="CAEmitterLayer" id="J4N-qc-K2M"/>
+                        <segue destination="YdS-BT-9qK" kind="push" identifier="POP" id="zIZ-ID-Tf2"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aJd-om-7og" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -127,7 +128,26 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kCk-hw-8ku" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="110" y="916"/>
+            <point key="canvasLocation" x="110" y="912"/>
+        </scene>
+        <!--Pop View Controller-->
+        <scene sceneID="bh4-nq-SUy">
+            <objects>
+                <viewController id="YdS-BT-9qK" customClass="PopViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="ur9-bu-OI3"/>
+                        <viewControllerLayoutGuide type="bottom" id="gR6-hl-dfz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="T6h-5f-X1Q">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="MAL-8m-SuG"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eYd-C4-Gpg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="541" y="904"/>
         </scene>
     </scenes>
 </document>
