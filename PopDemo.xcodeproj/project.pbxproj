@@ -48,6 +48,7 @@
 		93BA5C031CFEC0C100BF06DC /* POPSpringAnimation.mm in Sources */ = {isa = PBXBuildFile; fileRef = 93BA5BEA1CFEC0C100BF06DC /* POPSpringAnimation.mm */; };
 		93BA5C041CFEC0C100BF06DC /* POPVector.mm in Sources */ = {isa = PBXBuildFile; fileRef = 93BA5BEE1CFEC0C100BF06DC /* POPVector.mm */; };
 		93BA5C051CFEC0C100BF06DC /* TransformationMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93BA5BF11CFEC0C100BF06DC /* TransformationMatrix.cpp */; };
+		93BA5C081CFEC9A100BF06DC /* WMCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BA5C071CFEC9A100BF06DC /* WMCustomButton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -159,6 +160,8 @@
 		93BA5BF11CFEC0C100BF06DC /* TransformationMatrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TransformationMatrix.cpp; sourceTree = "<group>"; };
 		93BA5BF21CFEC0C100BF06DC /* TransformationMatrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransformationMatrix.h; sourceTree = "<group>"; };
 		93BA5BF31CFEC0C100BF06DC /* UnitBezier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnitBezier.h; sourceTree = "<group>"; };
+		93BA5C061CFEC9A100BF06DC /* WMCustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMCustomButton.h; sourceTree = "<group>"; };
+		93BA5C071CFEC9A100BF06DC /* WMCustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMCustomButton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -317,6 +320,8 @@
 				93BA5BBF1CFEC0C100BF06DC /* pop */,
 				93BA5BBA1CFEBD8A00BF06DC /* PopViewController.h */,
 				93BA5BBB1CFEBD8A00BF06DC /* PopViewController.m */,
+				93BA5C061CFEC9A100BF06DC /* WMCustomButton.h */,
+				93BA5C071CFEC9A100BF06DC /* WMCustomButton.m */,
 			);
 			name = pop;
 			sourceTree = "<group>";
@@ -540,6 +545,7 @@
 				93BA5BF61CFEC0C100BF06DC /* POPAnimationEvent.mm in Sources */,
 				93BA5BFE1CFEC0C100BF06DC /* POPDecayAnimation.mm in Sources */,
 				93BA5C031CFEC0C100BF06DC /* POPSpringAnimation.mm in Sources */,
+				93BA5C081CFEC9A100BF06DC /* WMCustomButton.m in Sources */,
 				931529141CFD67AA00D27FD0 /* LineationViewController.m in Sources */,
 				931529101CFD202E00D27FD0 /* Transform3DViewController.m in Sources */,
 				93BA5C051CFEC0C100BF06DC /* TransformationMatrix.cpp in Sources */,
