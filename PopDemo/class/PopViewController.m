@@ -54,12 +54,10 @@
         CGFloat buttonBeginY = buttonEndY - [UIScreen mainScreen].bounds.size.height;
         
         // 按钮动画
-
         POPSpringAnimation *animation = [POPSpringAnimation createAnimationfromValue:CGRectMake(buttonX, buttonBeginY, buttonW, buttonH) withToValue:CGRectMake(buttonX, buttonEndY, buttonW, buttonH) withSpringBounciness:10 withSpringSpeed:10 withBeginTime:CACurrentMediaTime() + 1 * i];
         NSLog(@"%f", CACurrentMediaTime() + 1 * i);
         [button pop_addAnimation:animation forKey:nil];
     }
-    
     
     [self initPOPLayer];
     [self performSelector:@selector(addPOPSpringAnimation) withObject:nil];

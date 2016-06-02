@@ -51,6 +51,7 @@
                         <segue destination="rSU-m8-O2U" kind="push" identifier="CAEmitterLayer" id="J4N-qc-K2M"/>
                         <segue destination="YdS-BT-9qK" kind="push" identifier="POP" id="zIZ-ID-Tf2"/>
                         <segue destination="qOh-bj-nkj" kind="push" identifier="Replicator" id="01Q-oR-1bC"/>
+                        <segue destination="8Pb-k6-Rlv" kind="push" identifier="CAAnimation" id="jSJ-zX-xiO"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aJd-om-7og" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -181,6 +182,102 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="SYA-dr-5YI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-66" y="915"/>
+        </scene>
+        <!--Animation View Controller-->
+        <scene sceneID="Ruw-Fk-rHf">
+            <objects>
+                <viewController id="8Pb-k6-Rlv" customClass="WMAnimationViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hou-dp-h8v"/>
+                        <viewControllerLayoutGuide type="bottom" id="DDx-95-pzx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="PQw-vp-NVq">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4HB-Q8-E63">
+                                <rect key="frame" x="30" y="94" width="60" height="60"/>
+                                <color key="backgroundColor" red="0.97647058819999999" green="0.33725490200000002" blue="0.13725490200000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="mX1-Rw-Eps"/>
+                                    <constraint firstAttribute="width" constant="60" id="zG7-S5-s2P"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="scaleAnimation:" destination="8Pb-k6-Rlv" eventType="touchUpInside" id="pbh-iL-p28"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2xB-Jq-1qy">
+                                <rect key="frame" x="30" y="164" width="60" height="60"/>
+                                <color key="backgroundColor" red="0.5" green="0.0" blue="0.5" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="KGu-yA-oG7"/>
+                                    <constraint firstAttribute="width" constant="60" id="s0B-0a-Bdh"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="opacityAnimation:" destination="8Pb-k6-Rlv" eventType="touchUpInside" id="cmT-Dr-Kto"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="k7m-lT-wTr">
+                                <rect key="frame" x="30" y="234" width="60" height="60"/>
+                                <color key="backgroundColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="WQP-5d-f5x"/>
+                                    <constraint firstAttribute="width" constant="60" id="zTR-Wo-eKP"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="shakeAnimation:" destination="8Pb-k6-Rlv" eventType="touchUpInside" id="DnW-3j-d5n"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nCg-gL-9wg">
+                                <rect key="frame" x="30" y="304" width="60" height="60"/>
+                                <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="9X5-U0-gdu"/>
+                                    <constraint firstAttribute="height" constant="60" id="Alf-fp-IES"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="rorateAnimation:" destination="8Pb-k6-Rlv" eventType="touchUpInside" id="8hR-22-ADk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4xR-ts-Ss8">
+                                <rect key="frame" x="230" y="478" width="60" height="60"/>
+                                <color key="backgroundColor" red="0.88972553453947367" green="0.78286903782894501" blue="0.24799547697368421" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="60" id="6AV-vo-9Og"/>
+                                    <constraint firstAttribute="height" constant="60" id="MPC-aK-rZp"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="composeAnimation:" destination="8Pb-k6-Rlv" eventType="touchUpInside" id="7Z6-uK-x7M"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="nCg-gL-9wg" firstAttribute="top" secondItem="k7m-lT-wTr" secondAttribute="bottom" constant="10" id="ALT-aW-sr9"/>
+                            <constraint firstItem="k7m-lT-wTr" firstAttribute="top" secondItem="2xB-Jq-1qy" secondAttribute="bottom" constant="10" id="BgQ-F5-8cW"/>
+                            <constraint firstItem="DDx-95-pzx" firstAttribute="top" secondItem="4xR-ts-Ss8" secondAttribute="bottom" constant="30" id="Bup-DX-xH9"/>
+                            <constraint firstItem="4HB-Q8-E63" firstAttribute="leading" secondItem="PQw-vp-NVq" secondAttribute="leading" constant="30" id="JAb-We-ZM6"/>
+                            <constraint firstItem="2xB-Jq-1qy" firstAttribute="top" secondItem="4HB-Q8-E63" secondAttribute="bottom" constant="10" id="NUp-N7-kQY"/>
+                            <constraint firstItem="nCg-gL-9wg" firstAttribute="leading" secondItem="PQw-vp-NVq" secondAttribute="leading" constant="30" id="W3g-6d-McH"/>
+                            <constraint firstAttribute="trailing" secondItem="4xR-ts-Ss8" secondAttribute="trailing" constant="30" id="bv2-x5-BgO"/>
+                            <constraint firstItem="k7m-lT-wTr" firstAttribute="leading" secondItem="2xB-Jq-1qy" secondAttribute="leading" id="eMo-ws-GR9"/>
+                            <constraint firstItem="2xB-Jq-1qy" firstAttribute="leading" secondItem="4HB-Q8-E63" secondAttribute="leading" id="kBd-24-3F4"/>
+                            <constraint firstItem="4HB-Q8-E63" firstAttribute="top" secondItem="hou-dp-h8v" secondAttribute="bottom" constant="30" id="zB2-9n-moE"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="fae-4u-KYH"/>
+                    <connections>
+                        <outlet property="composeButton" destination="4xR-ts-Ss8" id="8qQ-4d-V1N"/>
+                        <outlet property="opacityButton" destination="2xB-Jq-1qy" id="60B-Dk-cIC"/>
+                        <outlet property="rorateButton" destination="nCg-gL-9wg" id="fH9-C5-1JA"/>
+                        <outlet property="scaleButton" destination="4HB-Q8-E63" id="teX-V9-Pos"/>
+                        <outlet property="shakeButton" destination="k7m-lT-wTr" id="dUu-7n-JpL"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="z8B-L2-7vh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="324" y="921"/>
         </scene>
     </scenes>
     <resources>

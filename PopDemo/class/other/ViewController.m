@@ -32,7 +32,8 @@ static NSString *cellID = @"cell";
                          @"lineation",
                          @"CAEmitterLayer",
                          @"POP",
-                         @"Replicator"
+                         @"Replicator",
+                         @"CAAnimation"
                          ];
     self.dataArray = [NSMutableArray arrayWithArray:array];
     self.title = @"动画组合";
