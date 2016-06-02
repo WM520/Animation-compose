@@ -1,29 +1,28 @@
 //
-//  BaseViewController.m
+//  ReplicatorViewController.m
 //  PopDemo
 //
-//  Created by David on 16/5/31.
+//  Created by David on 16/6/1.
 //  Copyright © 2016年 WM. All rights reserved.
 //
 
-#import "BaseViewController.h"
+#import "ReplicatorViewController.h"
 
-@interface BaseViewController ()
+@interface ReplicatorViewController ()
 
 @end
 
-@implementation BaseViewController
+@implementation ReplicatorViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
-
 
 @end

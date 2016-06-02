@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9300B39D1CFFC141000FA51E /* POPSpringAnimation+WM.m in Sources */ = {isa = PBXBuildFile; fileRef = 9300B39C1CFFC141000FA51E /* POPSpringAnimation+WM.m */; };
 		931528851CFD168A00D27FD0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 931528841CFD168A00D27FD0 /* main.m */; };
 		9315288E1CFD168A00D27FD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9315288C1CFD168A00D27FD0 /* Main.storyboard */; };
 		931528901CFD168A00D27FD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9315288F1CFD168A00D27FD0 /* Assets.xcassets */; };
@@ -49,6 +50,7 @@
 		93BA5C041CFEC0C100BF06DC /* POPVector.mm in Sources */ = {isa = PBXBuildFile; fileRef = 93BA5BEE1CFEC0C100BF06DC /* POPVector.mm */; };
 		93BA5C051CFEC0C100BF06DC /* TransformationMatrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 93BA5BF11CFEC0C100BF06DC /* TransformationMatrix.cpp */; };
 		93BA5C081CFEC9A100BF06DC /* WMCustomButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BA5C071CFEC9A100BF06DC /* WMCustomButton.m */; };
+		93BA5C0E1CFEE4B000BF06DC /* ReplicatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 93BA5C0D1CFEE4B000BF06DC /* ReplicatorViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +71,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9300B39B1CFFC141000FA51E /* POPSpringAnimation+WM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "POPSpringAnimation+WM.h"; sourceTree = "<group>"; };
+		9300B39C1CFFC141000FA51E /* POPSpringAnimation+WM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "POPSpringAnimation+WM.m"; sourceTree = "<group>"; };
 		931528801CFD168A00D27FD0 /* PopDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PopDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		931528841CFD168A00D27FD0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9315288D1CFD168A00D27FD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -162,6 +166,8 @@
 		93BA5BF31CFEC0C100BF06DC /* UnitBezier.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnitBezier.h; sourceTree = "<group>"; };
 		93BA5C061CFEC9A100BF06DC /* WMCustomButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMCustomButton.h; sourceTree = "<group>"; };
 		93BA5C071CFEC9A100BF06DC /* WMCustomButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMCustomButton.m; sourceTree = "<group>"; };
+		93BA5C0C1CFEE4B000BF06DC /* ReplicatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReplicatorViewController.h; sourceTree = "<group>"; };
+		93BA5C0D1CFEE4B000BF06DC /* ReplicatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplicatorViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -251,6 +257,7 @@
 		931529021CFD1D0C00D27FD0 /* class */ = {
 			isa = PBXGroup;
 			children = (
+				93BA5C0B1CFEE49C00BF06DC /* Replicator */,
 				93BA5BB91CFEBD7600BF06DC /* pop */,
 				937289FD1CFD996100E3E973 /* CAEmitterLayer */,
 				931529111CFD677000D27FD0 /* 划线 */,
@@ -320,6 +327,8 @@
 				93BA5BBF1CFEC0C100BF06DC /* pop */,
 				93BA5BBA1CFEBD8A00BF06DC /* PopViewController.h */,
 				93BA5BBB1CFEBD8A00BF06DC /* PopViewController.m */,
+				9300B39B1CFFC141000FA51E /* POPSpringAnimation+WM.h */,
+				9300B39C1CFFC141000FA51E /* POPSpringAnimation+WM.m */,
 				93BA5C061CFEC9A100BF06DC /* WMCustomButton.h */,
 				93BA5C071CFEC9A100BF06DC /* WMCustomButton.m */,
 			);
@@ -390,6 +399,15 @@
 				93BA5BF31CFEC0C100BF06DC /* UnitBezier.h */,
 			);
 			path = WebCore;
+			sourceTree = "<group>";
+		};
+		93BA5C0B1CFEE49C00BF06DC /* Replicator */ = {
+			isa = PBXGroup;
+			children = (
+				93BA5C0C1CFEE4B000BF06DC /* ReplicatorViewController.h */,
+				93BA5C0D1CFEE4B000BF06DC /* ReplicatorViewController.m */,
+			);
+			name = Replicator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -537,6 +555,7 @@
 				93BA5BFB1CFEC0C100BF06DC /* POPBasicAnimation.mm in Sources */,
 				93BA5C041CFEC0C100BF06DC /* POPVector.mm in Sources */,
 				93BA5BF41CFEC0C100BF06DC /* POPAnimatableProperty.mm in Sources */,
+				93BA5C0E1CFEE4B000BF06DC /* ReplicatorViewController.m in Sources */,
 				93BA5C001CFEC0C100BF06DC /* POPLayerExtras.mm in Sources */,
 				93BA5BF51CFEC0C100BF06DC /* POPAnimation.mm in Sources */,
 				93BA5BF81CFEC0C100BF06DC /* POPAnimationRuntime.mm in Sources */,
@@ -559,6 +578,7 @@
 				93BA5BFD1CFEC0C100BF06DC /* POPCustomAnimation.mm in Sources */,
 				931529081CFD1D0C00D27FD0 /* AppDelegate.m in Sources */,
 				93BA5BFC1CFEC0C100BF06DC /* POPCGUtils.mm in Sources */,
+				9300B39D1CFFC141000FA51E /* POPSpringAnimation+WM.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

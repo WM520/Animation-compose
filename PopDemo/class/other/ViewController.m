@@ -32,17 +32,10 @@ static NSString *cellID = @"cell";
                          @"lineation",
                          @"CAEmitterLayer",
                          @"POP",
-                         @"Easing",
-                         @"Replicator",
-                         @"Emitter",
-                         @"PresentLayer",
-                         @"Transition",
-                         @"DrawRect",
-                         @"Crumbling",
-                         @"TextAnimation",
-                         @"CoolLabel",
+                         @"Replicator"
                          ];
     self.dataArray = [NSMutableArray arrayWithArray:array];
+    self.title = @"动画组合";
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:cellID];
 }
 

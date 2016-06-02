@@ -18,6 +18,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.view.layer.contents = (__bridge id _Nullable)([UIImage imageNamed:@"20140628142758_Bckm4"].CGImage);
+    self.title = @"3D旋转";
 }
 - (IBAction)transform:(id)sender {
     

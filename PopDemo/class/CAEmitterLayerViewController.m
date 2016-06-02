@@ -20,6 +20,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.title = @"下雨下雪";
     UIImageView *alphaView1 = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, 200, 300)];
     alphaView1.image        = [UIImage imageNamed:@"alpha"];
     

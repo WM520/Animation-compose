@@ -7,7 +7,7 @@
 //
 
 #import "PopViewController.h"
-#import "pop.h"
+#import "POPSpringAnimation+WM.h"
 #import "WMCustomButton.h"
 
 @interface PopViewController ()
@@ -22,7 +22,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
-    self.title = @"POP";
+    self.title = @"POP动画";
     // 数据
     NSArray *images = @[@"publish-video", @"publish-picture", @"publish-text", @"publish-audio", @"publish-review", @"publish-offline"];
     NSArray *titles = @[@"发视频", @"发图片", @"发段子", @"发声音", @"审帖", @"离线下载"];
@@ -54,13 +54,10 @@
         CGFloat buttonBeginY = buttonEndY - [UIScreen mainScreen].bounds.size.height;
         
         // 按钮动画
-        POPSpringAnimation *anim = [POPSpringAnimation animationWithPropertyNamed:kPOPViewFrame];
-        anim.fromValue = [NSValue valueWithCGRect:CGRectMake(buttonX, buttonBeginY, buttonW, buttonH)];
-        anim.toValue = [NSValue valueWithCGRect:CGRectMake(buttonX, buttonEndY, buttonW, buttonH)];
-        anim.springBounciness = 10;
-        anim.springSpeed = 10;
-        anim.beginTime = CACurrentMediaTime() + 0.5 * i;
-        [button pop_addAnimation:anim forKey:nil];
+
+        POPSpringAnimation *animation = [POPSpringAnimation createAnimationfromValue:CGRectMake(buttonX, buttonBeginY, buttonW, buttonH) withToValue:CGRectMake(buttonX, buttonEndY, buttonW, buttonH) withSpringBounciness:10 withSpringSpeed:10 withBeginTime:CACurrentMediaTime() + 1 * i];
+        NSLog(@"%f", CACurrentMediaTime() + 1 * i);
+        [button pop_addAnimation:animation forKey:nil];
     }
     
     
@@ -88,11 +85,5 @@
 {
     
 }
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
-}
-
 
 @end

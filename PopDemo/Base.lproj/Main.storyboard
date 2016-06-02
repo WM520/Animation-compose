@@ -19,7 +19,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="y1v-H2-T70" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-483" y="70"/>
+            <point key="canvasLocation" x="-1695" y="74"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="VCt-xQ-Dvg">
@@ -50,11 +50,12 @@
                         <segue destination="jE6-WD-9Tc" kind="push" identifier="lineation" id="RJp-tm-L8c"/>
                         <segue destination="rSU-m8-O2U" kind="push" identifier="CAEmitterLayer" id="J4N-qc-K2M"/>
                         <segue destination="YdS-BT-9qK" kind="push" identifier="POP" id="zIZ-ID-Tf2"/>
+                        <segue destination="qOh-bj-nkj" kind="push" identifier="Replicator" id="01Q-oR-1bC"/>
                     </connections>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="aJd-om-7og" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-67" y="70"/>
+            <point key="canvasLocation" x="-1091" y="74"/>
         </scene>
         <!--Transform3D View Controller-->
         <scene sceneID="wWH-Sa-PTL">
@@ -90,7 +91,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sWs-gI-ZCS" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-925" y="939"/>
+            <point key="canvasLocation" x="-1695" y="915"/>
         </scene>
         <!--Lineation View Controller-->
         <scene sceneID="IGk-NN-5gD">
@@ -109,7 +110,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="qLZ-j8-zC3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-410" y="931"/>
+            <point key="canvasLocation" x="-1282" y="915"/>
         </scene>
         <!--Emitter Layer View Controller-->
         <scene sceneID="j9a-K6-A3a">
@@ -128,7 +129,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="kCk-hw-8ku" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="110" y="912"/>
+            <point key="canvasLocation" x="-882" y="915"/>
         </scene>
         <!--Pop View Controller-->
         <scene sceneID="bh4-nq-SUy">
@@ -147,7 +148,42 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="eYd-C4-Gpg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="541" y="904"/>
+            <point key="canvasLocation" x="-463" y="915"/>
+        </scene>
+        <!--Replicator View Controller-->
+        <scene sceneID="d4H-HH-DYg">
+            <objects>
+                <viewController id="qOh-bj-nkj" customClass="ReplicatorViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="6mN-xq-qAZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="kDf-qb-aeH"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zoc-nM-IlQ">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="luffy" translatesAutoresizingMaskIntoConstraints="NO" id="HRa-b0-suB">
+                                <rect key="frame" x="10" y="74" width="300" height="250"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="250" id="SxO-k5-aSO"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="HRa-b0-suB" secondAttribute="trailing" constant="10" id="K4p-MO-7jf"/>
+                            <constraint firstItem="HRa-b0-suB" firstAttribute="top" secondItem="6mN-xq-qAZ" secondAttribute="bottom" constant="10" id="Nac-mO-Mu3"/>
+                            <constraint firstItem="HRa-b0-suB" firstAttribute="leading" secondItem="zoc-nM-IlQ" secondAttribute="leading" constant="10" id="yWb-nc-oxz"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="PUv-7H-FU0"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SYA-dr-5YI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-66" y="915"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="luffy" width="299" height="220"/>
+    </resources>
 </document>
