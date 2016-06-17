@@ -22,6 +22,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    NSLog(@"111111111");
 }
 - (IBAction)scaleAnimation:(UIButton *)sender {
     [CAAnimation showScaleAnimationInView:self.scaleButton scaleValue:2 repeat:MAXFLOAT duration:2];
