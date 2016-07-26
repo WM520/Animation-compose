@@ -89,7 +89,7 @@
         }
     }
     
-    [WMLayer createAnimationLayerWithString:@"cherry，我爱你" andRect: CGRectMake(0, 100, self.view.frame.size.width, self.view.frame.size.width) andView:self.view andFont:[UIFont boldSystemFontOfSize:40] andStrokeColor:[UIColor cyanColor]];
+    [WMLayer createAnimationLayerWithString:@"殷婷，我爱你" andRect: CGRectMake(0, 100, self.view.frame.size.width, self.view.frame.size.width) andView:self.view andFont:[UIFont boldSystemFontOfSize:40] andStrokeColor:[UIColor cyanColor]];
 }
 /**
  *  火花效果

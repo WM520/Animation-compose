@@ -116,6 +116,14 @@
     [view.layer addAnimation:rotateAnimation forKey:@"rotateAnimation"];
 }
 
+/**
+ * 在具体的UIView上实现一个移动的动画
+ *@param   view         动画的载体
+ *@param   Position     最终停留的位置(中心点坐标)
+ *@param   repeat       动画循环次数，0表示无限循环
+ *@param   duration     动画运行一次的时间
+ *@return  void
+ */
 + (void)showMoveAnimationInView:(UIView *)view Position:(CGPoint)position Repeat:(CGFloat)repeat Duration:(CGFloat)duration
 {    
     CABasicAnimation *moveAnimation = [CABasicAnimation animationWithKeyPath:@"position"];

@@ -50,7 +50,7 @@
         int row = i / maxCols;
         int col = i % maxCols;
         CGFloat buttonX = buttonStartX + col * (xMargin + buttonW);
-        CGFloat buttonEndY = buttonStartY + row * buttonH;
+        CGFloat buttonEndY = buttonStartY + row * buttonH + 20;
         CGFloat buttonBeginY = buttonEndY - [UIScreen mainScreen].bounds.size.height;
         
         // 按钮动画

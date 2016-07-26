@@ -6,8 +6,8 @@
 //  Copyright © 2016年 WM. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "BaseViewController.h"
 
-@interface CAEmitterLayerViewController : UIViewController
+@interface CAEmitterLayerViewController : BaseViewController
 
 @end

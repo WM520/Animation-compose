@@ -38,6 +38,9 @@ static NSString *cellID = @"cell";
     self.dataArray = [NSMutableArray arrayWithArray:array];
     self.title = @"动画组合";
     [self.tableView registerClass:[UITableViewCell class] forCellReuseIdentifier:cellID];
+    
+ 
+    
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
